@@ -1,7 +1,7 @@
 package org.example;
 
 public class Main {
-    public static void wer(String[] args) {
+    public static void main(String[] args) {
 
         private static boolean isSumBetween10And20(int a, int b){
             int sum = a + b;
