@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -14,6 +15,10 @@ public class Main {
         System.out.println("\nВведите год: ");
         int year = in.nextInt();
         System.out.println(isLeapYear(year));
+        System.out.println(Arrays.toString(createArray(5, 0)));
+        int[] array = new int[]{0, 1, 0, 1, 1, 1, 0, 0, 0};
+        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(changeArray(array)));
         }
     /**
      * 1. Написать метод, принимающий на вход два целых числа и проверяющий,
@@ -54,7 +59,32 @@ public class Main {
                return false;
            }
        }
+    private static int[] createArray(int len, int initialValue) {
+        // должен вернуть массив длины len, каждое значение которого равно initialValue
+        int[] array = new int [len];
+        for (int i = 0; i < len; i++){
+            array [i] = initialValue;
+        }
+        return array;
     }
+//    1. Задать целочисленный массив, состоящий из элементов 0 и 1.
+//            * Например: [ 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 ]. С помощью цикла и условия заменить 0 на 1, 1 на 0;
+    private static int[] changeArray(int[] array){
+            for (int i = 0; i < array.length; i++){
+                if (array[i] == 1){
+                    array[i] = 0;
+                }
+                else{
+                    array[i] = 1;
+                }
+            }
+            return array;
+    }
+
+
+    }
+
+
 
 //      int a = 2;
 //      int b = 15;
