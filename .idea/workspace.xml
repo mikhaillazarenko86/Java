@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd341cd7-62d9-4883-a673-4ff82840b10f" name="Changes" comment="finished part">
+    <list default="true" id="dd341cd7-62d9-4883-a673-4ff82840b10f" name="Changes" comment="finished part 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679758449795</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finished part 2">
+      <created>1679808187965</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679808187965</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Error" />
     <MESSAGE value="finished part" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished part" />
+    <MESSAGE value="finished part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished part 2" />
   </component>
 </project>
